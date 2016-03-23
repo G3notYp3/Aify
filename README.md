@@ -13,6 +13,7 @@ Le projet sera mis à jour par notre équipe une fois par semaine, le dimanche �
 Actuellement rédigé en français, le projet sera amené futurement à être rédigé aussi en anglais, couvrant ainsi 28,4 % de la population mondiale utilisant internet.
 
 ## Prochainement
+- Programmation en Programmation Orientée Objet,
 - Page de profil,
 - Fonctionnalité d'ajout et de suppression d'ami(s),
 - Page des métiers.
