@@ -1,0 +1,86 @@
+#navigation span {
+    color: rgba(255,255,255,0.30);
+    cursor: not-allowed;
+}
+    
+#hamburger:target {
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    transform: translateX(-300px);
+}
+
+.col_large { overflow: inherit }
+
+.col_large article {
+    overflow: hidden;
+    text-align: center;
+}
+
+.col_large article:nth-of-type(odd) {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col_large article header {
+    background-color: #2196F3;
+    max-height: inherit;
+}
+
+.col_large article header:first-child { padding-top: 16px }
+
+.col_large article header a, .col_large article header span, .col_large article header p { color: white }
+
+.col_large article header a {
+    float: inherit;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.col_large article header span:nth-of-type(2) { font-size: 48px }
+
+.col_large article header .mdi-help-circle {
+    float: right;
+    margin-right: 16px;
+}
+
+.col_large article header .mdi-account-circle { float: inherit }
+
+article form { padding: 16px }
+
+article input[type="email"], article input[type="text"], article input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 16px;
+    padding: 8px;
+    -webkit-transition: border 500ms ease-in-out;
+    transition: border 500ms ease-in-out;
+    width: 25%;
+}
+
+article input[type="email"], article input[type="password"] {
+    width: -webkit-calc(50% + 4px);
+    width: calc(50% + 4px);
+}
+
+input[type="text"]:not(.search_bar) { text-transform: capitalize }
+
+article input[type="password"] { margin-bottom: 8px }
+
+article input[type="email"]:focus, article input[type="text"]:focus, article input[type="password"]:focus { border-bottom: 1px solid #0288D1 }
+
+.btn.raised {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col_large article footer { border-top: none }
+
+#sign { display: none }
+
+#sign:target { display: inherit }
+
+#sign:target + #log { display: none }
+
+#log:target { display: inherit }
