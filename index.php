@@ -20,6 +20,11 @@
         <link rel="icon" type="image/png" href="favicon.png" />
         <title>Aify</title>
         <meta name="description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
+        <meta name="viewport" content="width=device-width, initial-scale=.5">
+        <link rel="icon" sizes="192x192" href="high-res.png">
+        <meta name="theme-color" content="#2196F3" />
+        <meta name="msapplication-navbutton-color" content="#2196F3">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#2196F3">
         <link rel="stylesheet" href="assets/styles/main.css" />
         <?php if(in_array($_GET['p'], $css_pages)) : ?>
         <link rel="stylesheet" href="assets/styles/<?php echo $getPage; ?>.css" />

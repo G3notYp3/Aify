@@ -1,8 +1,5 @@
 <?php
     if(isset($_GET['include'])) {
-        session_start();
-        require('../models/bdd.php');
-        require('../models/users.php');
         $id = $_GET['ID'];
         if($_GET['include'] == 'forPost') {
             removePost($id);

@@ -26,7 +26,7 @@
                     if(addUser($mail, $name, $sname, $pass)) {
                         $user->setUserInfos($mail);
 
-                        header('Location: index.php?p=home');
+                        header('Location: ?p=home');
                         die();
                     }
                     else {
