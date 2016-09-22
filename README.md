@@ -10,13 +10,13 @@ Téléchargez ce répertoire en cliquant sur le bouton Download ZIP en haut à d
 Nous vérifions continuellement vos ajouts.
 
 ## Langues
-Actuellement rédigé en français, le projet sera amené futurement à être rédigé aussi en anglais, couvrant ainsi 28,4 % de la population mondiale utilisant internet.
+Vous pouvez, si vous le souhaitez, contribuer à la traduction de la plateforme, les fichiers de traductions sont dans le dossier "translations".
 
 ## Prochainement
 - Programmation en Programmation Orientée Objet,
 - Page de profil,
 - Fonctionnalité d'ajout et de suppression d'ami(s),
-- Page des métiers.
+- ...
 
 ## Collaboration
-Vous pouvez nous aider à débusquer les bogues ou améliorer notre code actuel en proposant des modifications dans la branche expérimentale.
+Vous pouvez nous aider en traduisant la plateforme, en débusquant les bogues ou améliorer notre code actuel en proposant des modifications dans la branche expérimentale.
