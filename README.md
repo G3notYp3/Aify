@@ -7,7 +7,7 @@ Venez nous rendre visite sur Facebook pour supporter le projet : www.facebook.co
 Téléchargez ce répertoire en cliquant sur le bouton Download ZIP en haut à droite. Décompressez l'archive et renommez-la "Aify" (retirez le mot "-master" que Github ajoute automatiquement). Vous pouvez très bien utiliser ce code source sans renommer le répertoire mais cela pourrait causer des problèmes dans le futur.
 
 ## Mise à jour
-Le projet sera mis à jour par notre équipe une fois par semaine, le dimanche à 22 heures 30.
+Nous vérifions continuellement vos ajouts.
 
 ## Langues
 Actuellement rédigé en français, le projet sera amené futurement à être rédigé aussi en anglais, couvrant ainsi 28,4 % de la population mondiale utilisant internet.
