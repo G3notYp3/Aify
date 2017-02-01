@@ -10,12 +10,17 @@ section:nth-of-type(2) article span {
     margin: 8px;
 }
 
-section:nth-of-type(2) article .article_content + .article_content a {
-    border-bottom: 2px solid white;
+section:nth-of-type(2) article .article_input {
+    height: 50px;
+    padding: inherit;
+}
+
+section:nth-of-type(2) article .article_input a {
+    border-bottom: 2px solid #F5F5F5;
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
-    line-height: 46px;
+    line-height: 32px;
     padding: 8px;
     text-align: center;
     text-transform: uppercase;
@@ -23,8 +28,6 @@ section:nth-of-type(2) article .article_content + .article_content a {
     width: 80px;
 }
 
-section:nth-of-type(2) article .article_content + .article_content a:hover { border-bottom: 2px solid rgba(0,0,0,.12) }
+section:nth-of-type(2) article .article_input a:hover { border-bottom: 2px solid rgba(0,0,0,.12) }
 
-section:nth-of-type(2) article .article_content + .article_content a:focus { border-bottom: 2px solid #0288D1 }
-
-section:nth-of-type(2) article .article_content + .article_content a:active { border-bottom: 2px solid #0288D1 }
+section:nth-of-type(2) article .article_input a:focus, section:nth-of-type(2) article .article_input a:active { border-bottom: 2px solid #0288D1 }

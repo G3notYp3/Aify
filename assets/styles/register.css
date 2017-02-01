@@ -64,6 +64,8 @@ article input[type="email"], article input[type="password"] {
     width: calc(50% + 4px);
 }
 
+input[type="text"]:not(.search_bar) { text-transform: capitalize }
+
 article input[type="password"] { margin-bottom: 8px }
 
 article input[type="email"]:focus, article input[type="text"]:focus, article input[type="password"]:focus { border-bottom: 1px solid #0288D1 }

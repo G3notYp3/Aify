@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /controllers/
+Disallow: /models/
+Sitemap: https://www.aify.eu/sitemap.xml

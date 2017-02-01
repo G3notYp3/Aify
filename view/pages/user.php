@@ -80,19 +80,19 @@
     <small role="contentinfo">Français (France)<br>Aify ©</small>
 </section>
 <section class="col_large">
-    <article class="no_header">
-        <div class="article_content">
-            <div class="img_frame_cover">
-                <img src="assets/pictures/airplane-day.png">
-            </div>
-        </div>
+    <article>
         <div class="article_content">
             <span class="mdi-account-circle"></span>
-            <a href="#">Profil</a>
-            <a href="#">À propos</a>
-            <a href="#">Contacts</a>
-            <a href="#">Multimédia</a>
-            <a href="#">Avis</a>
+            
+        </div>
+        <div class="article_input">
+            <nav>
+                <a href="#">Profil</a>
+                <a href="#">À propos</a>
+                <a href="#">Contacts</a>
+                <a href="#">Multimédia</a>
+                <a href="#">Avis</a>
+            </nav>
         </div>
     </article>
 </section>

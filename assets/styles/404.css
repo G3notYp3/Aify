@@ -1,0 +1,7 @@
+section { text-align: center }
+
+.col_large article:nth-of-type(odd) {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: initial;
+}

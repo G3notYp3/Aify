@@ -1,26 +1,89 @@
 <?php
     session_start();
     //require('config.php');
-    require('models/bdd.php');
-    require('models/users.php');
-    $css_pages = ['register', 'settings', 'user'];
+    require_once('models/bdd.php');
+    require_once('controllers/user.class.php')
+    $user_obj = new User(); // Instanciation de l'objet, () non obligatoires.
+    
+    if ($_GET['?']) : '404'  {
+        header($_SERVER['SERVER_PROTOCOL'] . '404 Not Found')
+    }
+    $css_pages = ['404', 'job', 'register', 'settings', 'user'];
     $getPage = (isset($_GET['p'])) ? $_GET['p'] : 'home';
     $user_infos = showFullName();
 ?>
 <!DOCTYPE html>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN">
-<html lang="fr">
+<html>
     <head>
         <meta charset="utf-8">
+        <link rel="alternate" hreflang="x-default" href="https://www.aify.eu/" />
         <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="icon" sizes="192x192" href="high-res.png" />
+        <meta property="og:image" content="https://www.aify.eu/assets/pictures/Aify.png" />
+        
         <title>Aify</title>
+        <meta property="og:title" content="Aify" />
         <meta name="description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
+        <meta property="og:description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.aify.eu/" />
+        
+        <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              "logo": "https://aify.eu/assets/pictures/Aify.svg",
+              "founder": "Lenny Obez",
+              "foundingDate": "2015",
+              "foundingLocation": "Amay",
+              "brand": "Aify",
+              "address": [{
+                "@type": "PostalAddress",
+                "streetAddress": "69B/r2 Chaussée de Liège",
+                "addressLocality": "Amay",
+                "addressRegion": "Liège"
+              }],
+              "url": "https://www.aify.eu",
+              "sameAs": [
+                "https://www.facebook.com/aify.eu",
+                "https://www.twitter.com/AIFY_eu",
+                "https://plus.google.com/b/111112926769464861794/+AifyEu",
+                "https://www.youtube.com/c/AifyEu",
+                "https://www.linkedin.com/company/aify"
+              ],
+              "contactPoint": [{
+                "@type": "contactPoint",
+                "telephone": "+32(4)95733136",
+                "email": "info@aify.eu",
+                "contactType": "technical support",
+                "availableLanguage": ["French", "English"]
+              }],
+              "potentialAction": [{
+                "@type": "SearchAction",
+                "target": "https://www.aify.eu/recherche?p={search_term}",
+                "query-input": "required name=search_term"
+            }]
+            }
+        </script>
+        
+        <link href="https://plus.google.com/b/111112926769464861794/+AifyEu" rel="publisher" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=.7">
+        
+        <meta name="theme-color" content="#2196F3" />
+        <meta name="msapplication-navbutton-color" content="#2196F3">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#2196F3">
         <link rel="stylesheet" href="assets/styles/main.css" />
         <?php if(in_array($_GET['p'], $css_pages)) : ?>
         <link rel="stylesheet" href="assets/styles/<?php echo $getPage; ?>.css" />
         <?php endif; ?>
-        <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.5.54/css/materialdesignicons.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet'>
+        <link rel="stylesheet" href="assets/styles/materialdesignicons.min.css" media="none" onload="if(media!='all')media='all'" />
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' media="none" onload="if(media!='all')media='all'" />
+        <noscript>
+            <link rel="stylesheet" href="assets/styles/materialdesignicons.min.css" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+        </noscript>
     </head>
     <body>
 	   <header>
@@ -105,7 +168,7 @@
         ?>
         <footer>
             <p>Version 0.23</p>
-            <a href="https://www.facebook.com/aify.eu/">FEEDBACK</a>
+            <a href="mailto:support@aify.eu">FEEDBACK</a>
         </footer>
         <?php
             if(isset($notification)) {

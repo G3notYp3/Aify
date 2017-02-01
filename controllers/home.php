@@ -1,8 +1,5 @@
 <?php
     if(isset($_GET['include'])) {
-        session_start();
-        require('../models/bdd.php');
-        require('../models/users.php');
         $id = $_GET['ID'];
         if($_GET['include'] == 'forPost') {
             removePost($id);
@@ -14,7 +11,7 @@
         }
     }
     else if(empty($_SESSION['ID'])) {
-        $notification = 'Il faut être connecté pour pouvoir publier.';
+        $error = 'Il faut être connecté pour pouvoir publier.';
     }
     else if(isset($_POST['post_content'])) {
         if(!empty($_POST['post_content'])) {
