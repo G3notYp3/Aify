@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/styles/jobs.css" />
+<link rel="stylesheet" href="assets/styles/data.css" />
 <div class="project">
     <div class="project_content">
         <h2 class="display-2">Web développeur</h2>
@@ -7,55 +7,101 @@
 <section class="col_large">
     <article>
         <div class="article_content">
-        <h2>Définition</h2>
-            <p>Développe, implémente de nouveaux sites et/ou met à jour un site existant en tenant compte des spécifications des intervenants.</p>
-        <h2>Activités du métier</h2>
-            <h3>Activités de base</h3>
-                <p>Élaborer l'architecture de sites</p>
-                <p>Intégrer les graphiques et contenus de sites</p>
-                <p>Développer et gérer les bases de données</p>
-                <p>Optimiser l'utilisabilité et les fonctionnalités des sites</p>
-                <p>Organiser le référencement de sites</p>
-                <p>Assurer la maintenance des programmes informatiques</p>
-            <h3>Activités spécifiques</h3>
-                <p>Concevoir et élaborer la forme des messages</p>
-                <p>Assurer la sécurité des systèmes</p>
-                <p>Assurer l'interface entre les différents intervenants</p>
-        <h2>Aptitudes à l'emploi</h2>
-            <p>Respecter les horaires convenus</p>
-            <p>Réagir rapidement, avec calme et maîtrise de soi, en présence d’un événement soudain</p>
-            <p>Respecter rigoureusement les règles de l’entreprise en matière de sécurité, d’hygiène et de respect de l’environnement</p>
-            <p>Respecter la déontologie et appliquer la réglementation et les instructions de l’entreprise</p>
-            <p>Présenter une image positive de l’entreprise</p>
-            <p>S’intégrer dans l’environnement de travail</p>
-            <p>Communiquer dans un style adapté</p>
-            <p>Adhérer aux objectifs de l’entreprise</p>
-            <p>Adopter des positions de travail sécuritaires et fonctionnelles</p>
-            <p>Travailler méthodiquement et rigoureusement</p>
-            <p>S’adapter à des technologies nouvelles</p>
-            <p>S’adapter aux besoins des clients</p>
-            <p>Avoir des prédispositions communicatives et commerciales</p>
-            <p>Faire preuve d’assertivité et d’esprit de persuasion</p>
-            <p>Savoir mener des négociations</p>
-            <p>Etre professionnel dans les contacts téléphoniques</p>
-            <p>Respecter des délais</p>
-            <p>Faire preuve de flexibilité</p>
-            <p>Résister au stress</p>
-            <p>Assurer une veille technologique</p>
-            <p>S’adapter aux évolutions technologiques</p>
-            <p>Etre capable de s’auto former</p>
-            <p>Résoudre des problèmes de façon autonome</p>
-            <p>Faire preuve de capacité d’analyse et de synthèse</p>
-            <p>Respecter la confidentialité des informations traitées ou communiquées</p>
-            <p>Se conformer à des processus rigoureux</p>
-            <p>Se montrer créatif</p>
-        <h2>Autres appellations</h2>
-            <p>Programmeur Internet</p>
-            <p>Technicien de site web, Webmaster</p>
-            <p>Développeur internet</p>
-            <p>Concepteur de sites</p>
-            <p>Administrateur de sites web</p>
-            <p>Ingénieur informatique</p>
+            <h3 class="h2">Appellation officielle</h3>
+            <p>Web développeur</p>
+            <h3 class="h2">Appellations officieuses</h3>
+            <p>Développeur informatique</p>
+            <h3 class="h2">Catégorie</h3>
+            <p>Programmation et développement</p>
+            <h3 class="h2">Étymologie</h3>
+            <p>Le mot développeur provient de l'ancien français "desvoleper" qui signifie: dégager une chose de ce qui l'enveloppe.</p>
+            <h3 class="h2">Métiers proches</h3>
+            <p>Community Manager, Infographiste, Web Designer, Web Master</p>
+            <h3 class="h2">Description</h3>
+            <p>Un Web Développeur est une personne qui est spécialisé dans le développement d'application à usage en ligne.</p>
+            <h3 class="h2">Évolution</h3>
+            <p>Chef de projet technique</p>
+            <hr>
+            <h3 class="h2">Études nécessaires</h3>
+            <h3 class="h2">Formations possibles</h3>
+            <h3 class="h2">Guide pour pratiquer</h3>
+            <hr>
+            <h3 class="h2">Compétences</h3>
+            <p>Maîtrise d'un ou des langage(s) suivants:</p>
+            <ul>
+                <li>
+                    <p>Langage de balisage</p>
+                    <ul>
+                        <li>HTML</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Langage de mise en forme</p>
+                    <ul>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Langage de programmation - client</p>
+                    <ul>
+                        <li>JS</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Langage de programmation - serveur</p>
+                    <ul>
+                        <li>ASP, Perl, PHP, Python, ...</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Langage de communication</p>
+                    <ul>
+                        <li>SQL</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3 class="h2">Activités de base</h3>
+            <h3 class="h2">Activités spécifiques</h3>
+            <h3 class="h2">Aptitudes à l'emploi</h3>
+            <h3 class="h2">Machines utilisées</h3>
+            <h3 class="h2">Contraintes physiques</h3>
+            <hr>
+            <h3 class="h2">Lieu d'exercice</h3>
+            <h3 class="h2">Secteurs d'activités les plus en demande ce de métier</h3>
+            <hr>
+            <h3 class="h2">Statistiques sur le marché de l'emploi</h3>
+            <h3 class="h2">Statistiques sur notre plateforme</h3>
+            <h3 class="h2">Salaire moyen</h3>
+            <div class="informations">
+                <p>Moyenne</p>
+                <p class="h1">3016,66 EUR.</p>
+            </div>
+            <meter high="75" low="25" max="100" min="0" value="7"></meter>
+            <div class="informations">
+                <p>Minimum</p>
+                <p class="h1">2639,99 EUR.</p>
+            </div>
+            <div class="informations">
+                <p>Maximum</p>
+                <p class="h1">8214,44 EUR.</p>
+            </div>
+            <hr>
+            <h3 class="h2">Conditions générales d'exercice de ce métier</h3>
+            <h3 class="h2">Conditions de travail</h3>
+            <hr>
+            <h3 class="h2">Avis</h3>
+            <a class="h2" href="#">Discussion(s)</a>
+            <h3 class="h2">Photos</h3>
+            <h3 class="h2">Exemple d'oeuvre</h3>
+            <h3 class="h2">Projet(s) récent sur notre plateforme</h3>
+            <h3 class="h2">Projet(s) populaire sur notre plateforme</h3>
+            <h3 class="h2">Article de presse</h3>
+            <hr>
+            <h3 class="h2">Pratique illégale</h3>
+        </div>
+        <div class="article_input">
+            <input type="submit" class="btn flat orange" value="OUI">
+            <input type="submit" class="btn flat orange" value="NON">
         </div>
     </article>
 </section>
