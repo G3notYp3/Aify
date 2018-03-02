@@ -1015,9 +1015,13 @@ input[type="checkbox"]:checked + label:active span { background-color: rgba(0,15
 .article_comment p { display: inline-block }
 
 .article_comment span {
-    line-height: 49px;
+    line-height: 48px;
     margin-right: 16px;
+    transform: rotate(0deg);
+    transition: transform 200ms ease-in-out;
 }
+
+.article_comment span { transform: rotate(180deg) }
 
 .article_comments {
     border-bottom: 1px solid rgba(0,0,0,.12);
