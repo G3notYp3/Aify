@@ -11,6 +11,10 @@ Nous vérifions continuellement vos ajouts.
 
 ## Langues
 Vous pouvez, si vous le souhaitez, contribuer à la traduction de la plateforme, les fichiers de traductions sont dans le dossier "translations".
+Le projet sera mis à jour par notre équipe une fois par semaine, le dimanche à 22 heures 30.
+
+## Langues
+Actuellement rédigé en français, le projet sera amené futurement à être rédigé aussi en anglais, couvrant ainsi 28,4 % de la population mondiale utilisant internet.
 
 ## Prochainement
 - Programmation en Programmation Orientée Objet,
@@ -20,3 +24,4 @@ Vous pouvez, si vous le souhaitez, contribuer à la traduction de la plateforme,
 
 ## Collaboration
 Vous pouvez nous aider en traduisant la plateforme, en débusquant les bogues ou améliorer notre code actuel en proposant des modifications dans la branche expérimentale.
+- Page des métiers.

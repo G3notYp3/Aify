@@ -244,4 +244,4 @@ function commentExist($comment_content) {
     
     return $comment_verify->fetch();
 
-    }
+}

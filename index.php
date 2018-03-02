@@ -23,7 +23,8 @@
         <meta name="description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
         <meta property="og:description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://aify.eu/" />
+
+        <meta property="og:url" content="https://aify.social/" />
         
         <script type="application/ld+json">
             {
@@ -57,7 +58,7 @@
               }],
               "potentialAction": [{
                 "@type": "SearchAction",
-                "target": "https://aify.eu/recherche?p={search_term}",
+                "target": "https://aify.social/recherche?p={search_term}",
                 "query-input": "required name=search_term"
             }]
             }
