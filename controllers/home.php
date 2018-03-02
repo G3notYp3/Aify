@@ -11,7 +11,7 @@
         }
     }
     else if(empty($_SESSION['ID'])) {
-        $notification = 'Il faut être connecté pour pouvoir publier.';
+        $error = 'Il faut être connecté pour pouvoir publier.';
     }
     else if(isset($_POST['post_content'])) {
         if(!empty($_POST['post_content'])) {

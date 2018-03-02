@@ -35,12 +35,12 @@
                 <h3>Utilisateur 1<span class="mdi-block-helper"></span></h3>
             </div>
             <div class="line">
-                <h2>Lien Atlas</h2>
+                <h2>Lien Aify</h2>
                 <h3>http://www.facebook.com/utilisateur.1<span class="mdi-block-helper"></span></h3>
             </div>
             <div class="line">
                 <h2>Adresse mail</h2>
-                <h3>utilisateur.1@atlas.com<span class="mdi-border-color"></span></h3>
+                <h3>utilisateur.1@aify.eu<span class="mdi-border-color"></span></h3>
             </div>
             <div class="line">
                 <h2>Mot de passe</h2>
