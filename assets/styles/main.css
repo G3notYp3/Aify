@@ -815,6 +815,8 @@ article footer .share_bar { padding: 8px }
     padding: 16px;
 }
 
+.col_large article time { color: rgba(0,0,0,.54) }
+
 .col_large article header > a {
     line-height: 16px;
     margin-top: 20px;
