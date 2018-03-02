@@ -78,7 +78,7 @@
         ?>
     </article>
     <small role="contentinfo">Français (France)<br>
-    Ce(tte) œuvre de <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.aify.eu/" property="cc:attributionName" rel="cc:attributionURL">Aify</a> est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.</small>
+    <a xmlns:cc="https://creativecommons.org/ns#" href="https://www.aify.eu/" property="cc:attributionName" rel="cc:attributionURL">Aify</a> est mis à disposition avec <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>
 </section>
 <section class="col_medium left">
     <?php
@@ -172,7 +172,7 @@
     <article class="no_header">
         <div class="article_content">
             <div class="img_frame_large">
-                <img src="assets/pictures/case-day.png" />
+                <img alt="Image officielle" src="assets/pictures/case-day.png" />
             </div>
         </div>
         <div class="article_content">
@@ -188,7 +188,7 @@
     <article>
         <div class="article_content">
             <div class="img_frame_large">
-                <img src="assets/pictures/train-morning.png" />
+                <img alt="Image officielle" src="assets/pictures/train-morning.png" />
             </div>
         </div>
         <div class="article_input">
@@ -199,7 +199,7 @@
     <article class="no_hc">
         <div class="article_content">
             <div class="img_frame_large">
-                <img src="assets/pictures/city-night.png" />
+                <img alt="Image officielle" src="assets/pictures/city-night.png" />
             </div>
         </div>
         <div class="article_content">
@@ -274,22 +274,22 @@
         </header>
         <div class="article_content border">
             <div class="img_frame_medium">
-                <img src="assets/pictures/1.png" />
+                <img alt="Image utilisateur" src="assets/pictures/1.jpg" />
             </div>
             <div class="img_frame_small">
-                <img src="assets/pictures/2a.jpg" />
+                <img alt="Image utilisateur" src="assets/pictures/2a.jpg" />
             </div>
             <div class="img_frame_small">
-                <img src="assets/pictures/2b.jpg" />
+                <img alt="Image utilisateur" src="assets/pictures/2b.jpg" />
             </div>
             <div class="img_frame_small">
-                <img src="assets/pictures/3a.jpg" />
+                <img alt="Image utilisateur" src="assets/pictures/3a.jpg" />
             </div>
             <div class="img_frame_small">
-                <img src="assets/pictures/3b.png" />
+                <img alt="Image utilisateur" src="assets/pictures/3b.jpg" />
             </div>
             <div class="img_frame_small">
-                <img src="assets/pictures/4.png" />
+                <img alt="Image utilisateur" src="assets/pictures/4.jpg" />
             </div>
         </div>
         <div class="article_input">
@@ -361,7 +361,7 @@
         </header>
         <div class="article_content border">
             <div class="img_frame_large">
-                <img src="assets/pictures/5.png" />
+                <img alt="Image utilisateur" src="assets/pictures/5.jpg" />
             </div>
             <p>Voici une photo de l'I.S.S. !</p>
         </div>

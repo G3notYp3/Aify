@@ -47,7 +47,7 @@
 
 article form { padding: 16px }
 
-article input[type="email"], article input[type="text"], article input[type="password"] {
+article input[type="text"] {
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.12);
     -webkit-box-sizing: border-box;
@@ -59,16 +59,7 @@ article input[type="email"], article input[type="text"], article input[type="pas
     width: 25%;
 }
 
-article input[type="email"], article input[type="password"] {
-    width: -webkit-calc(50% + 4px);
-    width: calc(50% + 4px);
-}
-
-input[type="text"]:not(.search_bar) { text-transform: capitalize }
-
-article input[type="password"] { margin-bottom: 8px }
-
-article input[type="email"]:focus, article input[type="text"]:focus, article input[type="password"]:focus { border-bottom: 1px solid #0288D1 }
+article input[type="text"]:focus { border-bottom: 1px solid #0288D1 }
 
 .btn.raised {
     padding-left: 8px;
