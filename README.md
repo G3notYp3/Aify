@@ -7,6 +7,10 @@ Venez nous rendre visite sur Facebook pour supporter le projet : www.facebook.co
 Téléchargez ce répertoire en cliquant sur le bouton Download ZIP en haut à droite. Décompressez l'archive et renommez-la "Aify" (retirez le mot "-master" que Github ajoute automatiquement). Vous pouvez très bien utiliser ce code source sans renommer le répertoire mais cela pourrait causer des problèmes dans le futur.
 
 ## Mise à jour
+Nous vérifions continuellement vos ajouts.
+
+## Langues
+Vous pouvez, si vous le souhaitez, contribuer à la traduction de la plateforme, les fichiers de traductions sont dans le dossier "translations".
 Le projet sera mis à jour par notre équipe une fois par semaine, le dimanche à 22 heures 30.
 
 ## Langues
@@ -16,7 +20,8 @@ Actuellement rédigé en français, le projet sera amené futurement à être r�
 - Programmation en Programmation Orientée Objet,
 - Page de profil,
 - Fonctionnalité d'ajout et de suppression d'ami(s),
-- Page des métiers.
+- ...
 
 ## Collaboration
-Vous pouvez nous aider à débusquer les bogues ou améliorer notre code actuel en proposant des modifications dans la branche expérimentale.
+Vous pouvez nous aider en traduisant la plateforme, en débusquant les bogues ou améliorer notre code actuel en proposant des modifications dans la branche expérimentale.
+- Page des métiers.

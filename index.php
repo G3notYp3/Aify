@@ -1,39 +1,36 @@
 <?php
     session_start();
     //require('config.php');
-    require_once('models/bdd.php');
-    require_once('controllers/user.class.php')
-    $user_obj = new User(); // Instanciation de l'objet, () non obligatoires.
+    include_once('models/bdd.php');
+    include_once('models/users.php');
     
-    if ($_GET['?']) : '404'  {
-        header($_SERVER['SERVER_PROTOCOL'] . '404 Not Found')
-    }
     $css_pages = ['404', 'job', 'register', 'settings', 'user'];
     $getPage = (isset($_GET['p'])) ? $_GET['p'] : 'home';
     $user_infos = showFullName();
 ?>
 <!DOCTYPE html>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN">
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
-        <link rel="alternate" hreflang="x-default" href="https://www.aify.eu/" />
+        <link rel="alternate" hreflang="x-default" href="https://aify.eu/" />
         <link rel="icon" type="image/png" href="favicon.png" />
         <link rel="icon" sizes="192x192" href="high-res.png" />
-        <meta property="og:image" content="https://www.aify.eu/assets/pictures/Aify.png" />
+        <meta property="og:image" content="https://aify.eu/assets/pictures/aify.png" />
         
         <title>Aify</title>
         <meta property="og:title" content="Aify" />
         <meta name="description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
         <meta property="og:description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.aify.eu/" />
+
+        <meta property="og:url" content="https://aify.social/" />
         
         <script type="application/ld+json">
             {
               "@context": "http://schema.org",
               "@type": "Organization",
-              "logo": "https://aify.eu/assets/pictures/Aify.svg",
+              "logo": "https://aify.eu/assets/pictures/aify.svg",
               "founder": "Lenny Obez",
               "foundingDate": "2015",
               "foundingLocation": "Amay",
@@ -44,9 +41,9 @@
                 "addressLocality": "Amay",
                 "addressRegion": "Liège"
               }],
-              "url": "https://www.aify.eu",
+              "url": "https://aify.social",
               "sameAs": [
-                "https://www.facebook.com/aify.eu",
+                "https://www.facebook.com/aify.social/",
                 "https://www.twitter.com/AIFY_eu",
                 "https://plus.google.com/b/111112926769464861794/+AifyEu",
                 "https://www.youtube.com/c/AifyEu",
@@ -55,13 +52,13 @@
               "contactPoint": [{
                 "@type": "contactPoint",
                 "telephone": "+32(4)95733136",
-                "email": "info@aify.eu",
+                "email": "info@aify.social",
                 "contactType": "technical support",
                 "availableLanguage": ["French", "English"]
               }],
               "potentialAction": [{
                 "@type": "SearchAction",
-                "target": "https://www.aify.eu/recherche?p={search_term}",
+                "target": "https://aify.social/recherche?p={search_term}",
                 "query-input": "required name=search_term"
             }]
             }
@@ -143,7 +140,7 @@
                         <span class="mdi-menu"></span>
                     </a>
                     <a href="?p=home">
-                        <img alt="logo" id="logo" src="assets/pictures/Aify.svg" />
+                        <img alt="logo d'Aify" id="logo" src="assets/pictures/aify.svg" />
                     </a>
                     <form method="get" class="search" action="#">
                         <button class="btn_right">
@@ -168,7 +165,7 @@
         ?>
         <footer>
             <p>Version 0.23</p>
-            <a href="mailto:support@aify.eu">FEEDBACK</a>
+            <a href="mailto:support@aify.social">FEEDBACK</a>
         </footer>
         <?php
             if(isset($notification)) {

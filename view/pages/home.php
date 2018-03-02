@@ -78,7 +78,7 @@
         ?>
     </article>
     <small role="contentinfo">Français (France)<br>
-    Ce(tte) œuvre de <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.aify.eu/" property="cc:attributionName" rel="cc:attributionURL">Aify</a> est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.</small>
+    <a xmlns:cc="https://creativecommons.org/ns#" href="https://aify.social/" property="cc:attributionName" rel="cc:attributionURL">Aify</a> est mis à disposition avec <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>
 </section>
 <section class="col_medium left">
     <?php
