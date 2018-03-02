@@ -51,5 +51,8 @@
     }
     else {
         $notification = 'Bonjour ;)';
+
+        header('Location: ?p=home');
+        die();
     }
 ?>
