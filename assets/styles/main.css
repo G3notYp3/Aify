@@ -1023,7 +1023,7 @@ input[type="checkbox"]:checked + label:active span { background-color: rgba(0,15
     transition: transform 200ms ease-in-out;
 }
 
-.article_comment span { transform: rotate(180deg) }
+.article_comment span:hover { transform: rotate(180deg) }
 
 .article_comments {
     border-bottom: 1px solid rgba(0,0,0,.12);
