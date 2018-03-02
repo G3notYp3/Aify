@@ -60,7 +60,7 @@
             if(!empty($_SESSION['ID'])) {
                 ?>
                 <div class="article_content">
-        
+
                 </div>
                 <?php
             }
@@ -134,7 +134,7 @@
     ?>
     <article>
         <header>
-            <p class="h2">Bienvenue 
+            <p class="h2">Bienvenue
                 <?php
                 if($user_infos) {
                     echo '<a class="h2" href="?p=user">' . $user_infos['user_name'] . ' ' . $user_infos['user_sname'] . '</a>';
@@ -145,7 +145,7 @@
             ?>&nbsp;!</p>
         </header>
         <div class="article_content">
-            <p>Vous 
+            <p>Vous
                 <?php
                     if($user_infos) {
                         echo 'êtes nouveau sur le réseau, désirez-vous faire une visite des lieux';
@@ -459,8 +459,5 @@
                 <input class="share_bar" maxlenght="155" placeholder="Commenter ..." type="text"/>
             </form>
         </footer>
-    </article>
-    <article>
-        <div class="chargeur"></div>
     </article>
 </section>
