@@ -5,37 +5,37 @@
   	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-      <loc>https://aify.eu/?p=home</loc>
+      <loc>https://aify.social/?p=home</loc>
       <changefreq>always</changefreq>
       <priority>1.00</priority>
     </url>
     <url>
-      <loc>https://aify.eu/?p=register</loc>
+      <loc>https://aify.social/?p=register</loc>
       <changefreq>yearly</changefreq>
       <priority>1.00</priority>
     </url>
     <url>
-      <loc>https://aify.eu/?p=help</loc>
+      <loc>https://aify.social/?p=help</loc>
       <changefreq>weekly</changefreq>
       <priority>1.00</priority>
     </url>
     <url>
-      <loc>https://aify.eu/?p=jobs</loc>
+      <loc>https://aify.social/?p=jobs</loc>
       <changefreq>always</changefreq>
       <priority>0.80</priority>
     </url>
     <url>
-      <loc>https://aify.eu/?p=messages</loc>
+      <loc>https://aify.social/?p=messages</loc>
       <changefreq>daily</changefreq>
       <priority>0.50</priority>
     </url>
     <url>
-      <loc>https://aify.eu/?p=settings</loc>
+      <loc>https://aify.social/?p=settings</loc>
       <changefreq>yearly</changefreq>
       <priority>0.50</priority>
     </url>
     <url>
-      <loc>https://aify.eu/?p=user</loc>
+      <loc>https://aify.social/?p=user</loc>
       <changefreq>always</changefreq>
       <priority>0.50</priority>
     </url>

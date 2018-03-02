@@ -3,7 +3,7 @@
     //require('config.php');
     include_once('models/bdd.php');
     include_once('models/users.php');
-    
+
     $css_pages = ['404', 'job', 'register', 'settings', 'user'];
     $getPage = (isset($_GET['p'])) ? $_GET['p'] : 'home';
     $user_infos = showFullName();
@@ -13,23 +13,23 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <link rel="alternate" hreflang="x-default" href="https://aify.eu/" />
+        <link rel="alternate" hreflang="x-default" href="https://aify.social/" />
         <link rel="icon" type="image/png" href="favicon.png" />
         <link rel="icon" sizes="192x192" href="high-res.png" />
-        <meta property="og:image" content="https://aify.eu/assets/pictures/aify.png" />
-        
+        <meta property="og:image" content="https://aify.social/assets/pictures/aify.png" />
+
         <title>Aify</title>
         <meta property="og:title" content="Aify" />
         <meta name="description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
         <meta property="og:description" content="Aify vous met à disposition les outils nécessaires à la réalisation de votre projet personnel et/ou professionnel." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://aify.eu/" />
-        
+        <meta property="og:url" content="https://aify.social/" />
+
         <script type="application/ld+json">
             {
               "@context": "http://schema.org",
               "@type": "Organization",
-              "logo": "https://aify.eu/assets/pictures/aify.svg",
+              "logo": "https://aify.social/assets/pictures/aify.svg",
               "founder": "Lenny Obez",
               "foundingDate": "2015",
               "foundingLocation": "Amay",
@@ -57,16 +57,16 @@
               }],
               "potentialAction": [{
                 "@type": "SearchAction",
-                "target": "https://aify.eu/recherche?p={search_term}",
+                "target": "https://aify.social/recherche?p={search_term}",
                 "query-input": "required name=search_term"
             }]
             }
         </script>
-        
+
         <link href="https://plus.google.com/b/111112926769464861794/+AifyEu" rel="publisher" />
-        
+
         <meta name="viewport" content="width=device-width, initial-scale=.7">
-        
+
         <meta name="theme-color" content="#2196F3" />
         <meta name="msapplication-navbutton-color" content="#2196F3">
         <meta name="apple-mobile-web-app-status-bar-style" content="#2196F3">

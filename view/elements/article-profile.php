@@ -74,7 +74,7 @@
             <span class="mdi-settings"></span>
             <p>Paramètres</p>
         </a>
-        <a href="http://support.aify.eu">
+        <a href="http://support.aify.social">
             <span class="mdi-help-circle"></span>
             <p>Aide</p>
         </a>

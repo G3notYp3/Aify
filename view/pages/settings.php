@@ -40,7 +40,7 @@
             </div>
             <div class="line">
                 <h2>Adresse mail</h2>
-                <h3>utilisateur.1@aify.eu<span class="mdi-border-color"></span></h3>
+                <h3>utilisateur.1@aify.social<span class="mdi-border-color"></span></h3>
             </div>
             <div class="line">
                 <h2>Mot de passe</h2>

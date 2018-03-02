@@ -71,7 +71,7 @@
             </ul>
             <p>Avec Aify, vos rêves sont enfin à portée de main.<br>
             Si vous avez des questions, n’hésitez pas à nous contacter:<br>
-            <a class="colored" href="mailto:info@aify.eu">info@aify.eu</a> pour les entreprises et <a class="colored" href="mailto:press@aify.eu">press@aify.eu</a> pour la presse.</p>
+            <a class="colored" href="mailto:info@aify.social">info@aify.social</a> pour les entreprises et <a class="colored" href="mailto:press@aify.social">press@aify.social</a> pour la presse.</p>
         </div>
     </article>
 </section>
