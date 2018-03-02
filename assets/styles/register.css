@@ -2,7 +2,7 @@
     color: rgba(255,255,255,0.30);
     cursor: not-allowed;
 }
-    
+
 #hamburger:target {
     -webkit-transform: translateX(-300px);
     -ms-transform: translateX(-300px);
@@ -14,6 +14,11 @@
 .col_large article {
     overflow: hidden;
     text-align: center;
+}
+
+.col_large article:only-of-type {
+    width: -webkit-calc(50% - 6px);
+    width: calc(50% - 6px);
 }
 
 .col_large article:nth-of-type(odd) {
