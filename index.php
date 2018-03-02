@@ -16,7 +16,7 @@
         <link rel="alternate" hreflang="x-default" href="https://aify.eu/" />
         <link rel="icon" type="image/png" href="favicon.png" />
         <link rel="icon" sizes="192x192" href="high-res.png" />
-        <meta property="og:image" content="https://aify.eu/assets/pictures/Aify.png" />
+        <meta property="og:image" content="https://aify.eu/assets/pictures/aify.png" />
         
         <title>Aify</title>
         <meta property="og:title" content="Aify" />
@@ -29,7 +29,7 @@
             {
               "@context": "http://schema.org",
               "@type": "Organization",
-              "logo": "https://aify.eu/assets/pictures/Aify.svg",
+              "logo": "https://aify.eu/assets/pictures/aify.svg",
               "founder": "Lenny Obez",
               "foundingDate": "2015",
               "foundingLocation": "Amay",
@@ -40,9 +40,9 @@
                 "addressLocality": "Amay",
                 "addressRegion": "Liège"
               }],
-              "url": "https://aify.eu",
+              "url": "https://aify.social",
               "sameAs": [
-                "https://www.facebook.com/aify.eu",
+                "https://www.facebook.com/aify.social/",
                 "https://www.twitter.com/AIFY_eu",
                 "https://plus.google.com/b/111112926769464861794/+AifyEu",
                 "https://www.youtube.com/c/AifyEu",
@@ -51,7 +51,7 @@
               "contactPoint": [{
                 "@type": "contactPoint",
                 "telephone": "+32(4)95733136",
-                "email": "info@aify.eu",
+                "email": "info@aify.social",
                 "contactType": "technical support",
                 "availableLanguage": ["French", "English"]
               }],
@@ -139,7 +139,7 @@
                         <span class="mdi-menu"></span>
                     </a>
                     <a href="?p=home">
-                        <img alt="logo de l'entreprise" id="logo" src="assets/pictures/aify.svg" />
+                        <img alt="logo d'Aify" id="logo" src="assets/pictures/aify.svg" />
                     </a>
                     <form method="get" class="search" action="#">
                         <button class="btn_right">
@@ -164,7 +164,7 @@
         ?>
         <footer>
             <p>Version 0.23</p>
-            <a href="mailto:support@aify.eu">FEEDBACK</a>
+            <a href="mailto:support@aify.social">FEEDBACK</a>
         </footer>
         <?php
             if(isset($notification)) {
