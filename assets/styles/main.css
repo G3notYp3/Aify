@@ -134,14 +134,14 @@ article .mdi-verified span {
     font-weight: 500;
 }
 
-.menu li:hover ul, article .mdi-verified:hover span {
+.menu:hover ul, article .mdi-verified:hover span {
     max-height: 1000px;
     max-width: 270px;
     min-width: 80px;
     opacity: 1;
 }
 
-.menu li:hover ul { padding: inherit }
+.menu:hover ul { padding: inherit }
 
 .menu ul li:not(.contacts) a, article .mdi-verified:hover span {
     padding: 16px;
