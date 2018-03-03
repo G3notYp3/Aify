@@ -1,5 +1,6 @@
 # Aify
-Aify vous met en relation avec les personnes que vous connaissez et dont vous vous souciez.
+<img src="https://aify.social/assets/pictures/Aify.png" height="96" alt="Logo d'Aify" /><br />
+[Aify](https://aify.social/) vous met en relation avec les personnes que vous connaissez et dont vous vous souciez.
 Il vous permet de communiquer, de rester à jour et de garder contact avec vos amis et votre famille partout dans le monde. Que vous vouliez partager des actualités et des sites web, jouer à des jeux, organiser des événements, former des groupes ou promouvoir votre entreprise, Aify vous le permet.
 Venez nous rendre visite sur Facebook pour supporter le projet : www.facebook.com/aify.social
 
