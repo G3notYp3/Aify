@@ -6,7 +6,7 @@ Aify est conçu par [Lenny Obez](https://lennyobez.be/) en Belgique.
 * **Jessica Ernst**
 * **Erwan Perol** (graphiste)
 
-### Merci
+### Merci à tous nos contributeurs
 
 Aify n'aurait pas été possible sans les efforts de nombreuses personnes.
 L'aide au développement et le support émotionel provient principalement de [notre page Facebook](https://www.facebook.com/aify.social/) et de [notre projet GitHub](https://github.com/LennyObez/Aify).
