@@ -1,8 +1,11 @@
 <?php
     session_start();
-    //require('config.php');
     include_once('models/bdd.php');
     include_once('models/users.php');
+
+    if (!empty($getPage)) {
+        include('controllers/' . $getPage . '.php');
+    }
 
     $css_pages = ['404', 'job', 'register', 'settings', 'user'];
     $getPage = (isset($_GET['p'])) ? $_GET['p'] : 'home';
@@ -154,13 +157,10 @@
             </div>
         </header>
         <?php
-        if (!empty($getPage)) {
-            include('controllers/' . $getPage . '.php');
-        }
-        include('view/elements/article-hamburger.php');
-        if (!empty($getPage)) {
-            include('view/pages/' . $getPage . '.php');
-        }
+          include('view/elements/article-hamburger.php');
+          if (!empty($getPage)) {
+              include('view/pages/' . $getPage . '.php');
+          }
         ?>
         <footer>
             <p>Version 0.23</p>
