@@ -3,12 +3,12 @@
     include_once('models/bdd.php');
     include_once('models/users.php');
 
+    $getPage = (isset($_GET['p'])) ? $_GET['p'] : 'home';
     if (!empty($getPage)) {
         include('controllers/' . $getPage . '.php');
     }
 
     $css_pages = ['404', 'job', 'register', 'settings', 'user'];
-    $getPage = (isset($_GET['p'])) ? $_GET['p'] : 'home';
     $user_infos = showFullName();
 ?>
 <!DOCTYPE html>
