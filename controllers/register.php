@@ -25,7 +25,6 @@
             else {
                 if(addUser($mail, $name, $sname, $pass)) {
                     header('Location: ?p=home');
-                    die();
                 }
                 else {
                     $error = 'Certains champs n\'ont pas été rempli.';
@@ -42,7 +41,6 @@
                 $_SESSION['mail'] = $log['user_mail'];
 
                 header('Location: ?p=home');
-                die();
             }
             else {
                 $error = 'Le mot de passe est incorrect.';
