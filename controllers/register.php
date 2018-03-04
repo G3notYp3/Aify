@@ -25,7 +25,6 @@
             else {
                 if(addUser($mail, $name, $sname, $pass)) {
                     header('Location: ?p=home');
-                    die();
                 }
                 else {
                     $error = 'Certains champs n\'ont pas été rempli.';
@@ -52,7 +51,6 @@
     else {
         $notification = 'Bonjour ;)';
 
-        header('Location: ?p=home');
         die();
     }
 ?>
