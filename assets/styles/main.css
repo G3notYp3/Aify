@@ -12,12 +12,7 @@ body {
     margin-top: 88px;
 }
 
-::-moz-selection {
-    background-color: #81D4FA;
-    color: white;
-}
-
-::selection {
+::-moz-selection, ::selection {
     background-color: #81D4FA;
     color: white;
 }
@@ -288,9 +283,7 @@ span.mdi-alert-circle {
 
 .contacts:first-of-type { border-bottom: 1px solid rgba(0,0,0,.12) }
 
-.contacts:first-of-type:last-of-type {
-    border: inherit;
-}
+.contacts:first-of-type:last-of-type { border: inherit }
 
 .contacts:last-of-type { border-top: 1px solid rgba(0,0,0,.12) }
 
@@ -1116,79 +1109,6 @@ small {
 
 small a { color: #448AFF }
 
-.chargeur,
-.chargeur:before,
-.chargeur:after {
-    border-radius: 50%;
-}
-
-.chargeur {
-    box-shadow: inset 0 0 0 1em #03A9F4;
-    display: inline-block;
-    font-size: 7px;
-    height: 10em;
-    margin: 32px auto;
-    position: relative;
-    -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    transform: translateZ(0);
-    width: 10em;
-}
-
-.chargeur:before,
-.chargeur:after {
-    content: '';
-    position: absolute;
-}
-
-.chargeur:before {
-    -webkit-animation: chargement 2s infinite ease-in-out 1.5s;
-    animation: chargement 2s infinite ease-in-out 1.5s;
-    background: #FAFAFA;
-    border-radius: 10.2em 0 0 10.2em;
-    height: 10.2em;
-    left: -0.1em;
-    top: -0.1em;
-    -webkit-transform-origin: 5.2em 5.1em;
-    transform-origin: 5.2em 5.1em;
-    width: 5.2em;
-}
-
-.chargeur:after {
-    -webkit-animation: chargement 2s infinite ease-in-out;
-    animation: chargement 2s infinite ease-in-out;
-    width: 5.2em;
-    height: 10.2em;
-    background: #FAFAFA;
-    border-radius: 0 10.2em 10.2em 0;
-    left: 5.1em;
-    top: -0.1em;
-    -webkit-transform-origin: 0px 5.1em;
-    transform-origin: 0px 5.1em;
-}
-
-@-webkit-keyframes chargement {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes chargement {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
 body > footer {
     background-color: #323232;
     -webkit-border-radius: 2px;
@@ -1268,7 +1188,6 @@ input[type="password"] { margin-bottom: 8px }
 input[type="email"]:focus, input[type="password"]:focus { border-bottom: 1px solid #0288D1 }
 
 @media screen and (max-width: 1440px) {
-
     body, #header_primary_content, #header_secondary_content, .project_content { width: 100% }
 
     #header_primary_content .menu li ul {
@@ -1337,11 +1256,9 @@ input[type="email"]:focus, input[type="password"]:focus { border-bottom: 1px sol
         bottom: 1.4%;
         position: absolute;
     }
-
 }
 
 @media screen and (max-width: 1240px) {
-
     .col_large article:nth-of-type(odd), .col_large article:nth-of-type(even) {
         margin-left: 2px;
         margin-right: 2px;
@@ -1358,17 +1275,10 @@ input[type="email"]:focus, input[type="password"]:focus { border-bottom: 1px sol
     }
 
     .img_frame_small { display: none }
-
 }
 
 @media (orientation: portrait) {
-
-    .col_large article:first-of-type {
-        width: -webkit-calc(100% - 3px);
-        width: calc(100% - 3px);
-    }
-
-    .col_large article:first-of-type:last-of-type {
+    .col_large article:first-of-type, .col_large article:first-of-type:last-of-type {
         width: -webkit-calc(100% - 3px);
         width: calc(100% - 3px);
     }
@@ -1389,6 +1299,11 @@ input[type="email"]:focus, input[type="password"]:focus { border-bottom: 1px sol
 
 @media screen and (max-width: 960px) { .publication .article_input .btn.raised.blue.right { display: none } }
 
-@media screen and (max-width: 720px) { .col_large article { width: -webkit-calc(100% - 3px); width: calc(100% - 3px) } }
+@media screen and (max-width: 720px) {
+  .col_large article {
+    width: -webkit-calc(100% - 3px);
+    width: calc(100% - 3px);
+  }
+}
 
 @media screen and (max-height: 690px) { #hamburger footer { display: none } }
