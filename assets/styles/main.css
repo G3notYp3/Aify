@@ -120,6 +120,7 @@ body > header {
     position: absolute;
     -webkit-transition: opacity 200ms ease-in;
     transition: opacity 200ms ease-in;
+    z-index: 1;
 }
 
 article .mdi-verified span {
