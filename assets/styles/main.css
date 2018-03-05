@@ -159,7 +159,7 @@ span.mdi-alert-circle {
 .menu ul li:not(.contacts) a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 13px;
     -webkit-transition: background-color 200ms ease-in-out;
     transition: background-color 200ms ease-in-out;
 }

@@ -9,7 +9,10 @@
     transform: translateX(-300px);
 }
 
-.col_large { overflow: inherit }
+.col_large {
+    margin: 8px 16px;
+    overflow: inherit;
+}
 
 .col_large article {
     overflow: hidden;
