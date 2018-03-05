@@ -707,6 +707,7 @@ article {
     border-bottom: 1px solid rgba(0,0,0,.12);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    font-size: 14px;
     padding: 16px;
     resize: none;
     -webkit-transition: border 500ms ease-in-out;
@@ -805,11 +806,15 @@ article footer .share_bar { padding: 8px }
 .col_large article header .mdi-account-circle, .col_large article header > a, .col_large article time { float: left }
 
 .col_large article header .mdi-account-circle {
-    font-size: 37px;
+    font-size: 40px;
+    line-height: 40px;
     padding: 16px;
 }
 
-.col_large article time { color: rgba(0,0,0,.54) }
+.col_large article time {
+  color: rgba(0,0,0,.54);
+  margin-top: 4px;
+}
 
 .col_large article header > a {
     line-height: 16px;
@@ -822,6 +827,8 @@ article footer .share_bar { padding: 8px }
     line-height: 40px;
     padding: 16px;
 }
+
+.col_large article .article_content { clear: both }
 
 .img_frame_small, .img_frame_medium, .img_frame_large, .img_frame_cover, .img_aify {
     background-color: rgba(0,0,0,.87);
@@ -863,7 +870,10 @@ article footer .share_bar { padding: 8px }
     width: 66%;
 }
 
-article img { width: 100% }
+article img {
+  display: block;
+  width: 100%;
+}
 
 .img_frame_cover img {
     position: absolute;
@@ -878,7 +888,9 @@ article img { width: 100% }
     padding: 16px;
 }
 
-.article_content h2 { padding-top: 24px }
+.article_content h2, .article_content .h2 { padding-bottom: 8px }
+
+.article_content h2 + p, .article_content .h2 + p { padding-top: 8px }
 
 .article_content h2:first-child:last-child {
     bottom: 64px;
@@ -1115,6 +1127,7 @@ body > footer {
     -webkit-border-radius: 2px;
     border-radius: 2px;
     bottom: 16px;
+    font-size: 14px;
     left: 16px;
     padding: 16px;
     position: fixed;
@@ -1279,6 +1292,8 @@ input[type="email"]:focus, input[type="password"]:focus { border-bottom: 1px sol
 }
 
 @media (orientation: portrait) {
+    .col_large { margin-bottom: 48px }
+
     .col_large article:first-of-type, .col_large article:first-of-type:last-of-type {
         width: -webkit-calc(100% - 3px);
         width: calc(100% - 3px);

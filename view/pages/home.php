@@ -133,18 +133,16 @@
         showPost();
     ?>
     <article>
-        <header>
-            <p class="h2">Bienvenue
-                <?php
-                if($user_infos) {
-                    echo '<a class="h2" href="?p=user">' . $user_infos['user_name'] . ' ' . $user_infos['user_sname'] . '</a>';
-                }
-                else {
-                    echo '<a class="h2" href="?p=user">Invité</a>';
-                }
-            ?>&nbsp;!</p>
-        </header>
         <div class="article_content">
+          <p class="h2">Bienvenue
+              <?php
+              if($user_infos) {
+                  echo '<a class="h2" href="?p=user">' . $user_infos['user_name'] . ' ' . $user_infos['user_sname'] . '</a>';
+              }
+              else {
+                  echo '<a class="h2" href="?p=user">Invité</a>';
+              }
+          ?>&nbsp;!</p>
             <p>Vous
                 <?php
                     if($user_infos) {
@@ -169,7 +167,7 @@
             ?>
         </div>
     </article>
-    <article class="no_header">
+    <article>
         <div class="article_content">
             <div class="img_frame_large">
                 <img alt="Image officielle" src="assets/pictures/case-day.png" />
