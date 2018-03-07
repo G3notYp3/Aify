@@ -12,10 +12,36 @@ Nous vérifions continuellement vos ajouts.
 ## Langues
 Vous pouvez, si vous le souhaitez, contribuer à la traduction de la plateforme, les fichiers de traductions sont dans le dossier "translations".
 
-## Prochainement
+## Objectif
 - Programmation en Programmation Orientée Objet,
+- Utilisateur,
+  - Ajouter,
+  - Modifier,
+  - Supprimer,
+- Publication
+  - Créer,
+  - Modifier,
+    - Contenu
+    - Date,
+    - Epingler,
+    - Visibilité,
+  - Supprimer,
 - Page de profil,
-- Fonctionnalité d'ajout et de suppression d'ami(s),
+  - Automatiquement créé à la création de l'utilisateur,
+  - Modifier,
+  - Supprimer à la suppression de l'utilisateur,
+- Contact,
+  - Ajouter,
+  - Modifier (catégorie),
+  - Supprimer,
+- Page,
+  - Ajouter,
+  - Modifier,
+  - Supprimer,
+- Groupe,
+  - Ajouter,
+  - Modifier,
+  - Supprimer,
 - ...
 
 ## Collaboration
